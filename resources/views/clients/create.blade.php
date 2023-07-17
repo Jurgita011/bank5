@@ -21,7 +21,7 @@
                             <label class="form-label">Personal ID</label>
                             <input name="personal_id" type="text" class="form-control" value="{{old('personal_id')}}">
                         </div>
-                        <button type="submit" class="btn btn-warning m-1">Add</button>
+                        <button type="submit" class="btn btn-info m-1">Add</button>
                         <a class="btn btn-secondary m-1" href="{{route('clients-index')}}">Cancel</a>
                         @csrf
                     </form>

@@ -34,8 +34,8 @@
                             <label for="amount">Enter the amount, €</label>
                             <input name="amount" type="0" class="form-control">
                         </div>
-                        <button type="submit" class="btn btn-success m-1">Transfer</button>
-                        <a class="btn btn-secondary m-1" href="{{route('accounts-index')}}">Cancel</a>
+                        <button type="submit" class="btn btn-light m-1">Transfer</button>
+                        <a class="btn btn-dark m-1" href="{{route('accounts-index')}}">Cancel</a>
                         @csrf
                     </form>
                 </div>

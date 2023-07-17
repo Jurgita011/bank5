@@ -29,7 +29,7 @@
                             <label class="form-label">Balance, €</label>
                             <input name="balance" type="text" class="form-control" value=0 readonly>
                         </div>
-                        <button type="submit" class="btn btn-primary m-1">Add</button>
+                        <button type="submit" class="btn btn-info m-1">Add</button>
                         <a class="btn btn-secondary m-1" href="{{route('accounts-index')}}">Cancel</a>
                         @csrf
                     </form>
