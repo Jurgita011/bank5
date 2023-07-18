@@ -9,6 +9,7 @@
                 <div class="card-body">
                     <!-- Sorts and Filters -->
                     <div class="m-3">
+                     <img class="fit-picture"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXBXyDU-tpkUZ0IRH7Heewbhz9zV98a6mC1FLhtxwoEzvrnKCPIFk8eHxp38yRpkGrpNs&usqp=CAU"  alt="Grapefruit slice atop a pile of other slices">
                         <form action="{{route('clients-index')}}" method="get">
                             <fieldset>
                                 <div class="row">
