@@ -58,10 +58,10 @@
                             </div>
                         </li>
                         
-                        {{-- <!-- Transfers Link -->
+                        <!-- Transfers Link -->
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('transfers') }}">Transfers</a>
-                        </li> --}}
+                        </li>
                         
                         <!-- Authentication Links -->
                         @guest
